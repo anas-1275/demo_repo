@@ -1,1 +1,1 @@
-from . import todo_management,account_move_inherit
+from . import todo_management,account_move_inherit,res_partner_inherit
