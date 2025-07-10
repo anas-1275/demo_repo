@@ -39,6 +39,7 @@ class Task(models.Model):
             
     def action_total_step(self):
         print(sorted(set(self.time_sheet_ids.mapped('step'))))
+        
             
 
     def action_closed(self):

@@ -11,6 +11,7 @@
          'data\sequence.xml',
          'views\\base_view.xml',
          'views\\todo_management_view.xml',
+         'views\\res_partner_inherit.xml',
          'Reports\\todo_report.xml',
          'wizerd\select_user_view_wizerd.xml',
 

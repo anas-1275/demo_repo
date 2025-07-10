@@ -1,0 +1,26 @@
+<odoo>
+    
+    
+    
+    
+    
+    <!-- Form view for "model" -->
+    <record id="res_partner_form_view" model="ir.ui.view">
+        <field name="name">Res.Partner.Form.View</field>
+        <field name="model">res.partner</field>
+         <field name="inherit_id" ref="base.view_partner_form" />
+        <field name="arch" type="xml">
+            
+            <xpath expr="//div[@name='button_box']" position="inside">
+                <button name="action_of_tasks" string="Tasks" type="object" class="oe_stat_button" icon="fa-tasks"/>
+                
+            </xpath>
+            <xpath expr="//field[@name='function']" position="before">
+                <field name="number_of_tasks"/>                
+            </xpath>
+            
+        </field>
+    </record>
+    
+    
+</odoo>
